@@ -1,0 +1,669 @@
+2019-04-17 18:20:33,254 [main]  INFO Starting PaymentApplication on TRCM-ACDM12 with PID 3512 (C:\Users\nmoses\Downloads\PaymentWallet\payment1\target\classes started by nmoses in C:\Users\nmoses\Downloads\PaymentWallet\payment1)
+2019-04-17 18:20:33,258 [main]  INFO No active profile set, falling back to default profiles: default
+2019-04-17 18:20:34,965 [main]  INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-17 18:20:35,064 [main]  INFO Finished Spring Data repository scanning in 80ms. Found 1 repository interfaces.
+2019-04-17 18:20:35,372 [main]  INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b92bfdb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 18:20:37,101 [main]  INFO Tomcat initialized with port(s): 8080 (http)
+2019-04-17 18:20:37,215 [main]  INFO Starting service [Tomcat]
+2019-04-17 18:20:37,216 [main]  INFO Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-17 18:20:37,381 [main]  INFO Initializing Spring embedded WebApplicationContext
+2019-04-17 18:20:37,382 [main]  INFO Root WebApplicationContext: initialization completed in 4090 ms
+2019-04-17 18:20:37,835 [main]  INFO HikariPool-1 - Starting...
+2019-04-17 18:20:43,332 [main]  INFO HikariPool-1 - Start completed.
+2019-04-17 18:20:43,449 [main]  INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-17 18:20:43,656 [main]  INFO HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-17 18:20:43,658 [main]  INFO HHH000206: hibernate.properties not found
+2019-04-17 18:20:43,907 [main]  INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-17 18:20:44,079 [main]  INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-17 18:20:45,307 [main]  INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-17 18:20:45,966 [main]  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-17 18:20:46,020 [main]  WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-17 18:20:46,218 [main]  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-17 18:20:46,219 [main]  INFO Started PaymentApplication in 14.112 seconds (JVM running for 16.251)
+2019-04-17 18:21:29,333 [http-nio-8080-exec-1]  INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-17 18:21:29,333 [http-nio-8080-exec-1]  INFO Initializing Servlet 'dispatcherServlet'
+2019-04-17 18:21:29,338 [http-nio-8080-exec-1]  INFO Completed initialization in 4 ms
+2019-04-17 18:21:29,361 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:21:29,362 [http-nio-8080-exec-1]  INFO AUTHORIZATION  :yruyruurururiuriuriririririr
+2019-04-17 18:21:29,362 [http-nio-8080-exec-1]  INFO SECRET KEY  :abcd
+2019-04-17 18:21:29,362 [http-nio-8080-exec-1]  INFO SECRET KEY NOT CORRECT
+2019-04-17 18:21:29,362 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:21:29,362 [http-nio-8080-exec-1]  INFO IPAddress :127.0.0.1
+2019-04-17 18:21:29,363 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:21:29,363 [http-nio-8080-exec-1]  INFO REMOTE ADDRESS    :127.0.0.1
+2019-04-17 18:21:29,363 [http-nio-8080-exec-1]  INFO PROTOCOL    :HTTP/1.1
+2019-04-17 18:21:29,363 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:21:29,363 [http-nio-8080-exec-1]  INFO SERVER NAME   :localhost
+2019-04-17 18:21:29,363 [http-nio-8080-exec-1]  INFO SERVER PORT     :8080
+2019-04-17 18:21:29,363 [http-nio-8080-exec-1]  INFO *********************************************
+2019-04-17 18:23:26,210 [http-nio-8080-exec-3]  INFO -----------------------------------------
+2019-04-17 18:23:26,213 [http-nio-8080-exec-3]  INFO AUTHORIZATION  :yruyruurururiuriuriririririr
+2019-04-17 18:23:26,215 [http-nio-8080-exec-3]  INFO SECRET KEY  :abcd
+2019-04-17 18:23:26,216 [http-nio-8080-exec-3]  INFO SECRET KEY NOT CORRECT
+2019-04-17 18:23:26,217 [http-nio-8080-exec-3]  INFO -----------------------------------------
+2019-04-17 18:23:26,217 [http-nio-8080-exec-3]  INFO IPAddress :127.0.0.1
+2019-04-17 18:23:26,218 [http-nio-8080-exec-3]  INFO -----------------------------------------
+2019-04-17 18:23:26,218 [http-nio-8080-exec-3]  INFO REMOTE ADDRESS    :127.0.0.1
+2019-04-17 18:23:26,218 [http-nio-8080-exec-3]  INFO PROTOCOL    :HTTP/1.1
+2019-04-17 18:23:26,218 [http-nio-8080-exec-3]  INFO -----------------------------------------
+2019-04-17 18:23:26,220 [http-nio-8080-exec-3]  INFO SERVER NAME   :localhost
+2019-04-17 18:23:26,222 [http-nio-8080-exec-3]  INFO SERVER PORT     :8080
+2019-04-17 18:23:26,222 [http-nio-8080-exec-3]  INFO *********************************************
+2019-04-17 18:24:51,440 [http-nio-8080-exec-6]  INFO -----------------------------------------
+2019-04-17 18:24:51,441 [http-nio-8080-exec-6]  INFO AUTHORIZATION  :yruyruurururiuriuriririririr
+2019-04-17 18:24:51,441 [http-nio-8080-exec-6]  INFO SECRET KEY  :abcd
+2019-04-17 18:24:51,441 [http-nio-8080-exec-6]  INFO SECRET KEY NOT CORRECT
+2019-04-17 18:24:51,441 [http-nio-8080-exec-6]  INFO -----------------------------------------
+2019-04-17 18:24:51,442 [http-nio-8080-exec-6]  INFO IPAddress :0:0:0:0:0:0:0:1
+2019-04-17 18:24:51,443 [http-nio-8080-exec-6]  INFO -----------------------------------------
+2019-04-17 18:24:51,443 [http-nio-8080-exec-6]  INFO REMOTE ADDRESS    :0:0:0:0:0:0:0:1
+2019-04-17 18:24:51,444 [http-nio-8080-exec-6]  INFO PROTOCOL    :HTTP/1.1
+2019-04-17 18:24:51,444 [http-nio-8080-exec-6]  INFO -----------------------------------------
+2019-04-17 18:24:51,444 [http-nio-8080-exec-6]  INFO SERVER NAME   :localhost
+2019-04-17 18:24:51,444 [http-nio-8080-exec-6]  INFO SERVER PORT     :8080
+2019-04-17 18:24:51,444 [http-nio-8080-exec-6]  INFO *********************************************
+2019-04-17 18:25:46,216 [http-nio-8080-exec-7]  INFO -----------------------------------------
+2019-04-17 18:25:46,217 [http-nio-8080-exec-7]  INFO AUTHORIZATION  :yruyruurururiuriuriririririr
+2019-04-17 18:25:46,217 [http-nio-8080-exec-7]  INFO SECRET KEY  :abcd
+2019-04-17 18:25:46,217 [http-nio-8080-exec-7]  INFO SECRET KEY NOT CORRECT
+2019-04-17 18:25:46,217 [http-nio-8080-exec-7]  INFO -----------------------------------------
+2019-04-17 18:25:46,217 [http-nio-8080-exec-7]  INFO IPAddress :0:0:0:0:0:0:0:1
+2019-04-17 18:25:46,217 [http-nio-8080-exec-7]  INFO -----------------------------------------
+2019-04-17 18:25:46,217 [http-nio-8080-exec-7]  INFO REMOTE ADDRESS    :0:0:0:0:0:0:0:1
+2019-04-17 18:25:46,218 [http-nio-8080-exec-7]  INFO PROTOCOL    :HTTP/1.1
+2019-04-17 18:25:46,218 [http-nio-8080-exec-7]  INFO -----------------------------------------
+2019-04-17 18:25:46,218 [http-nio-8080-exec-7]  INFO SERVER NAME   :localhost
+2019-04-17 18:25:46,218 [http-nio-8080-exec-7]  INFO SERVER PORT     :8080
+2019-04-17 18:25:46,218 [http-nio-8080-exec-7]  INFO *********************************************
+2019-04-17 18:26:57,787 [main]  INFO Starting PaymentApplication on TRCM-ACDM12 with PID 15404 (C:\Users\nmoses\Downloads\PaymentWallet\payment1\target\classes started by nmoses in C:\Users\nmoses\Downloads\PaymentWallet\payment1)
+2019-04-17 18:26:57,788 [main]  INFO No active profile set, falling back to default profiles: default
+2019-04-17 18:26:58,231 [main]  INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-17 18:26:58,275 [main]  INFO Finished Spring Data repository scanning in 39ms. Found 1 repository interfaces.
+2019-04-17 18:26:58,444 [main]  INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d38496] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 18:26:58,624 [main]  INFO Tomcat initialized with port(s): 8080 (http)
+2019-04-17 18:26:58,637 [main]  INFO Starting service [Tomcat]
+2019-04-17 18:26:58,637 [main]  INFO Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-17 18:26:58,711 [main]  INFO Initializing Spring embedded WebApplicationContext
+2019-04-17 18:26:58,711 [main]  INFO Root WebApplicationContext: initialization completed in 897 ms
+2019-04-17 18:26:58,797 [main]  INFO HikariPool-1 - Starting...
+2019-04-17 18:27:02,073 [main]  INFO HikariPool-1 - Start completed.
+2019-04-17 18:27:02,104 [main]  INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-17 18:27:02,139 [main]  INFO HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-17 18:27:02,141 [main]  INFO HHH000206: hibernate.properties not found
+2019-04-17 18:27:02,216 [main]  INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-17 18:27:02,295 [main]  INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-17 18:27:02,684 [main]  INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-17 18:27:03,026 [main]  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-17 18:27:03,047 [main]  WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-17 18:27:03,148 [main]  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-17 18:27:03,149 [main]  INFO Started PaymentApplication in 5.545 seconds (JVM running for 6.035)
+2019-04-17 18:27:13,443 [http-nio-8080-exec-1]  INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-17 18:27:13,444 [http-nio-8080-exec-1]  INFO Initializing Servlet 'dispatcherServlet'
+2019-04-17 18:27:13,450 [http-nio-8080-exec-1]  INFO Completed initialization in 5 ms
+2019-04-17 18:27:13,458 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:27:13,458 [http-nio-8080-exec-1]  INFO AUTHORIZATION  :yruyruurururiuriuriririririr
+2019-04-17 18:27:13,458 [http-nio-8080-exec-1]  INFO SECRET KEY  :abcd
+2019-04-17 18:27:13,458 [http-nio-8080-exec-1]  INFO SECRET KEY NOT CORRECT
+2019-04-17 18:27:13,458 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:27:13,459 [http-nio-8080-exec-1]  INFO IPAddress :127.0.0.1
+2019-04-17 18:27:13,459 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:27:13,459 [http-nio-8080-exec-1]  INFO REMOTE ADDRESS    :127.0.0.1
+2019-04-17 18:27:13,459 [http-nio-8080-exec-1]  INFO PROTOCOL    :HTTP/1.1
+2019-04-17 18:27:13,459 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:27:13,459 [http-nio-8080-exec-1]  INFO SERVER NAME   :localhost
+2019-04-17 18:27:13,459 [http-nio-8080-exec-1]  INFO SERVER PORT     :8080
+2019-04-17 18:27:13,460 [http-nio-8080-exec-1]  INFO *********************************************
+2019-04-17 18:28:44,830 [main]  INFO Starting PaymentApplication on TRCM-ACDM12 with PID 10608 (C:\Users\nmoses\Downloads\PaymentWallet\payment1\target\classes started by nmoses in C:\Users\nmoses\Downloads\PaymentWallet\payment1)
+2019-04-17 18:28:44,833 [main]  INFO No active profile set, falling back to default profiles: default
+2019-04-17 18:28:45,219 [main]  INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-17 18:28:45,262 [main]  INFO Finished Spring Data repository scanning in 39ms. Found 1 repository interfaces.
+2019-04-17 18:28:45,428 [main]  INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a0cb2a50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 18:28:45,598 [main]  INFO Tomcat initialized with port(s): 8080 (http)
+2019-04-17 18:28:45,621 [main]  INFO Starting service [Tomcat]
+2019-04-17 18:28:45,621 [main]  INFO Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-17 18:28:45,703 [main]  INFO Initializing Spring embedded WebApplicationContext
+2019-04-17 18:28:45,704 [main]  INFO Root WebApplicationContext: initialization completed in 845 ms
+2019-04-17 18:28:45,789 [main]  INFO HikariPool-1 - Starting...
+2019-04-17 18:28:49,065 [main]  INFO HikariPool-1 - Start completed.
+2019-04-17 18:28:49,096 [main]  INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-17 18:28:49,131 [main]  INFO HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-17 18:28:49,133 [main]  INFO HHH000206: hibernate.properties not found
+2019-04-17 18:28:49,207 [main]  INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-17 18:28:49,289 [main]  INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-17 18:28:49,628 [main]  INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-17 18:28:49,950 [main]  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-17 18:28:49,971 [main]  WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-17 18:28:50,068 [main]  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-17 18:28:50,069 [main]  INFO Started PaymentApplication in 5.412 seconds (JVM running for 5.889)
+2019-04-17 18:29:16,000 [http-nio-8080-exec-1]  INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-17 18:29:16,002 [http-nio-8080-exec-1]  INFO Initializing Servlet 'dispatcherServlet'
+2019-04-17 18:29:16,007 [http-nio-8080-exec-1]  INFO Completed initialization in 5 ms
+2019-04-17 18:29:16,015 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:29:16,015 [http-nio-8080-exec-1]  INFO AUTHORIZATION  :yruyruurururiuriuriririririr
+2019-04-17 18:29:16,015 [http-nio-8080-exec-1]  INFO SECRET KEY  :abcd
+2019-04-17 18:29:16,016 [http-nio-8080-exec-1]  INFO SECRET KEY NOT CORRECT
+2019-04-17 18:29:16,016 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:29:16,016 [http-nio-8080-exec-1]  INFO IPAddress :127.0.0.1
+2019-04-17 18:29:16,016 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:29:16,017 [http-nio-8080-exec-1]  INFO REMOTE ADDRESS    :127.0.0.1
+2019-04-17 18:29:16,017 [http-nio-8080-exec-1]  INFO PROTOCOL    :HTTP/1.1
+2019-04-17 18:29:16,017 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:29:16,017 [http-nio-8080-exec-1]  INFO SERVER NAME   :localhost
+2019-04-17 18:29:16,017 [http-nio-8080-exec-1]  INFO SERVER PORT     :8080
+2019-04-17 18:29:16,017 [http-nio-8080-exec-1]  INFO *********************************************
+2019-04-17 18:30:10,743 [main]  INFO Starting PaymentApplication on TRCM-ACDM12 with PID 1808 (C:\Users\nmoses\Downloads\PaymentWallet\payment1\target\classes started by nmoses in C:\Users\nmoses\Downloads\PaymentWallet\payment1)
+2019-04-17 18:30:10,745 [main]  INFO No active profile set, falling back to default profiles: default
+2019-04-17 18:30:11,169 [main]  INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-17 18:30:11,215 [main]  INFO Finished Spring Data repository scanning in 41ms. Found 1 repository interfaces.
+2019-04-17 18:30:11,380 [main]  INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$469934f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 18:30:11,556 [main]  INFO Tomcat initialized with port(s): 8080 (http)
+2019-04-17 18:30:11,569 [main]  INFO Starting service [Tomcat]
+2019-04-17 18:30:11,569 [main]  INFO Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-17 18:30:11,656 [main]  INFO Initializing Spring embedded WebApplicationContext
+2019-04-17 18:30:11,656 [main]  INFO Root WebApplicationContext: initialization completed in 883 ms
+2019-04-17 18:30:11,741 [main]  INFO HikariPool-1 - Starting...
+2019-04-17 18:30:15,004 [main]  INFO HikariPool-1 - Start completed.
+2019-04-17 18:30:15,035 [main]  INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-17 18:30:15,070 [main]  INFO HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-17 18:30:15,071 [main]  INFO HHH000206: hibernate.properties not found
+2019-04-17 18:30:15,143 [main]  INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-17 18:30:15,220 [main]  INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-17 18:30:15,546 [main]  INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-17 18:30:15,862 [main]  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-17 18:30:15,882 [main]  WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-17 18:30:15,989 [main]  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-17 18:30:15,993 [main]  INFO Started PaymentApplication in 5.439 seconds (JVM running for 5.909)
+2019-04-17 18:31:07,084 [http-nio-8080-exec-1]  INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-17 18:31:07,084 [http-nio-8080-exec-1]  INFO Initializing Servlet 'dispatcherServlet'
+2019-04-17 18:31:07,091 [http-nio-8080-exec-1]  INFO Completed initialization in 6 ms
+2019-04-17 18:31:07,098 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:31:07,099 [http-nio-8080-exec-1]  INFO AUTHORIZATION  :yruyruurururiuriuriririririr
+2019-04-17 18:31:07,099 [http-nio-8080-exec-1]  INFO SECRET KEY  :abcd
+2019-04-17 18:31:07,100 [http-nio-8080-exec-1]  INFO SECRET KEY NOT CORRECT
+2019-04-17 18:31:07,100 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:31:07,100 [http-nio-8080-exec-1]  INFO IPAddress :127.0.0.1
+2019-04-17 18:31:07,100 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:31:07,100 [http-nio-8080-exec-1]  INFO REMOTE ADDRESS    :127.0.0.1
+2019-04-17 18:31:07,100 [http-nio-8080-exec-1]  INFO PROTOCOL    :HTTP/1.1
+2019-04-17 18:31:07,100 [http-nio-8080-exec-1]  INFO -----------------------------------------
+2019-04-17 18:31:07,101 [http-nio-8080-exec-1]  INFO SERVER NAME   :localhost
+2019-04-17 18:31:07,101 [http-nio-8080-exec-1]  INFO SERVER PORT     :8080
+2019-04-17 18:31:07,101 [http-nio-8080-exec-1]  INFO *********************************************
+2019-04-17 18:31:29,684 [http-nio-8080-exec-2]  INFO -----------------------------------------
+2019-04-17 18:31:29,685 [http-nio-8080-exec-2]  INFO AUTHORIZATION  :yruyruurururiuriuriririririr
+2019-04-17 18:31:29,685 [http-nio-8080-exec-2]  INFO SECRET KEY  :abcd
+2019-04-17 18:31:29,685 [http-nio-8080-exec-2]  INFO SECRET KEY NOT CORRECT
+2019-04-17 18:31:29,685 [http-nio-8080-exec-2]  INFO -----------------------------------------
+2019-04-17 18:31:29,685 [http-nio-8080-exec-2]  INFO IPAddress :127.0.0.1
+2019-04-17 18:31:29,685 [http-nio-8080-exec-2]  INFO -----------------------------------------
+2019-04-17 18:31:29,685 [http-nio-8080-exec-2]  INFO REMOTE ADDRESS    :127.0.0.1
+2019-04-17 18:31:29,685 [http-nio-8080-exec-2]  INFO PROTOCOL    :HTTP/1.1
+2019-04-17 18:31:29,685 [http-nio-8080-exec-2]  INFO -----------------------------------------
+2019-04-17 18:31:29,686 [http-nio-8080-exec-2]  INFO SERVER NAME   :localhost
+2019-04-17 18:31:29,686 [http-nio-8080-exec-2]  INFO SERVER PORT     :8080
+2019-04-17 18:31:29,686 [http-nio-8080-exec-2]  INFO *********************************************
+2019-04-17 18:31:31,207 [http-nio-8080-exec-3]  INFO -----------------------------------------
+2019-04-17 18:31:31,208 [http-nio-8080-exec-3]  INFO AUTHORIZATION  :yruyruurururiuriuriririririr
+2019-04-17 18:31:31,208 [http-nio-8080-exec-3]  INFO SECRET KEY  :abcd
+2019-04-17 18:31:31,208 [http-nio-8080-exec-3]  INFO SECRET KEY NOT CORRECT
+2019-04-17 18:31:31,208 [http-nio-8080-exec-3]  INFO -----------------------------------------
+2019-04-17 18:31:31,209 [http-nio-8080-exec-3]  INFO IPAddress :127.0.0.1
+2019-04-17 18:31:31,209 [http-nio-8080-exec-3]  INFO -----------------------------------------
+2019-04-17 18:31:31,209 [http-nio-8080-exec-3]  INFO REMOTE ADDRESS    :127.0.0.1
+2019-04-17 18:31:31,209 [http-nio-8080-exec-3]  INFO PROTOCOL    :HTTP/1.1
+2019-04-17 18:31:31,209 [http-nio-8080-exec-3]  INFO -----------------------------------------
+2019-04-17 18:31:31,209 [http-nio-8080-exec-3]  INFO SERVER NAME   :localhost
+2019-04-17 18:31:31,209 [http-nio-8080-exec-3]  INFO SERVER PORT     :8080
+2019-04-17 18:31:31,209 [http-nio-8080-exec-3]  INFO *********************************************
+2019-04-17 18:31:32,033 [http-nio-8080-exec-4]  INFO -----------------------------------------
+2019-04-17 18:31:32,034 [http-nio-8080-exec-4]  INFO AUTHORIZATION  :yruyruurururiuriuriririririr
+2019-04-17 18:31:32,034 [http-nio-8080-exec-4]  INFO SECRET KEY  :abcd
+2019-04-17 18:31:32,034 [http-nio-8080-exec-4]  INFO SECRET KEY NOT CORRECT
+2019-04-17 18:31:32,034 [http-nio-8080-exec-4]  INFO -----------------------------------------
+2019-04-17 18:31:32,035 [http-nio-8080-exec-4]  INFO IPAddress :127.0.0.1
+2019-04-17 18:31:32,035 [http-nio-8080-exec-4]  INFO -----------------------------------------
+2019-04-17 18:31:32,035 [http-nio-8080-exec-4]  INFO REMOTE ADDRESS    :127.0.0.1
+2019-04-17 18:31:32,035 [http-nio-8080-exec-4]  INFO PROTOCOL    :HTTP/1.1
+2019-04-17 18:31:32,035 [http-nio-8080-exec-4]  INFO -----------------------------------------
+2019-04-17 18:31:32,035 [http-nio-8080-exec-4]  INFO SERVER NAME   :localhost
+2019-04-17 18:31:32,035 [http-nio-8080-exec-4]  INFO SERVER PORT     :8080
+2019-04-17 18:31:32,035 [http-nio-8080-exec-4]  INFO *********************************************
+2019-04-17 18:33:49,122 [main]  INFO Starting PaymentApplication on TRCM-ACDM12 with PID 9244 (C:\Users\nmoses\Downloads\PaymentWallet\payment1\target\classes started by nmoses in C:\Users\nmoses\Downloads\PaymentWallet\payment1)
+2019-04-17 18:33:49,123 [main]  INFO No active profile set, falling back to default profiles: default
+2019-04-17 18:33:49,525 [main]  INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-17 18:33:49,569 [main]  INFO Finished Spring Data repository scanning in 39ms. Found 1 repository interfaces.
+2019-04-17 18:33:49,739 [main]  INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f4e4de4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 18:33:49,920 [main]  INFO Tomcat initialized with port(s): 8081 (http)
+2019-04-17 18:33:49,932 [main]  INFO Starting service [Tomcat]
+2019-04-17 18:33:49,932 [main]  INFO Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-17 18:33:50,006 [main]  INFO Initializing Spring embedded WebApplicationContext
+2019-04-17 18:33:50,006 [main]  INFO Root WebApplicationContext: initialization completed in 856 ms
+2019-04-17 18:33:50,087 [main]  INFO HikariPool-1 - Starting...
+2019-04-17 18:33:53,344 [main]  INFO HikariPool-1 - Start completed.
+2019-04-17 18:33:53,376 [main]  INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-17 18:33:53,412 [main]  INFO HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-17 18:33:53,414 [main]  INFO HHH000206: hibernate.properties not found
+2019-04-17 18:33:53,486 [main]  INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-17 18:33:53,564 [main]  INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-17 18:33:53,938 [main]  INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-17 18:33:54,242 [main]  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-17 18:33:54,264 [main]  WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-17 18:33:54,368 [main]  INFO Tomcat started on port(s): 8081 (http) with context path ''
+2019-04-17 18:33:54,370 [main]  INFO Started PaymentApplication in 5.427 seconds (JVM running for 5.895)
+2019-04-17 18:34:08,003 [http-nio-8081-exec-1]  INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-17 18:34:08,004 [http-nio-8081-exec-1]  INFO Initializing Servlet 'dispatcherServlet'
+2019-04-17 18:34:08,009 [http-nio-8081-exec-1]  INFO Completed initialization in 5 ms
+2019-04-17 18:34:08,017 [http-nio-8081-exec-1]  INFO -----------------------------------------
+2019-04-17 18:34:08,018 [http-nio-8081-exec-1]  INFO AUTHORIZATION  :yruyruurururiuriuriririririr
+2019-04-17 18:34:08,018 [http-nio-8081-exec-1]  INFO SECRET KEY  :abcd
+2019-04-17 18:34:08,018 [http-nio-8081-exec-1]  INFO SECRET KEY NOT CORRECT
+2019-04-17 18:34:08,018 [http-nio-8081-exec-1]  INFO -----------------------------------------
+2019-04-17 18:34:08,018 [http-nio-8081-exec-1]  INFO IPAddress :127.0.0.1
+2019-04-17 18:34:08,018 [http-nio-8081-exec-1]  INFO -----------------------------------------
+2019-04-17 18:34:08,019 [http-nio-8081-exec-1]  INFO REMOTE ADDRESS    :127.0.0.1
+2019-04-17 18:34:08,019 [http-nio-8081-exec-1]  INFO PROTOCOL    :HTTP/1.1
+2019-04-17 18:34:08,019 [http-nio-8081-exec-1]  INFO -----------------------------------------
+2019-04-17 18:34:08,019 [http-nio-8081-exec-1]  INFO SERVER NAME   :localhost
+2019-04-17 18:34:08,019 [http-nio-8081-exec-1]  INFO SERVER PORT     :8081
+2019-04-17 18:34:08,019 [http-nio-8081-exec-1]  INFO *********************************************
+2019-04-17 18:35:40,539 [http-nio-8081-exec-3]  WARN Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-04-17 18:35:40,553 [http-nio-8081-exec-3]  INFO -----------------------------------------
+2019-04-17 18:35:40,555 [http-nio-8081-exec-3]  INFO AUTHORIZATION  :null
+2019-04-17 18:35:40,555 [http-nio-8081-exec-3]  INFO SECRET KEY  :null
+2019-04-17 18:35:40,577 [http-nio-8081-exec-3] ERROR Servlet.service() for servlet [dispatcherServlet] threw exception
+java.lang.NullPointerException: null
+	at com.payment.demo.interceptors.payment1Interceptors.preHandle(payment1Interceptors.java:25)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-17 18:35:40,578 [http-nio-8081-exec-3] ERROR Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1013)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.payment.demo.interceptors.payment1Interceptors.preHandle(payment1Interceptors.java:25)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	... 25 common frames omitted
+2019-04-17 18:36:04,838 [http-nio-8081-exec-4]  INFO -----------------------------------------
+2019-04-17 18:36:04,838 [http-nio-8081-exec-4]  INFO AUTHORIZATION  :null
+2019-04-17 18:36:04,839 [http-nio-8081-exec-4]  INFO SECRET KEY  :null
+2019-04-17 18:36:04,841 [http-nio-8081-exec-4] ERROR Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.payment.demo.interceptors.payment1Interceptors.preHandle(payment1Interceptors.java:25)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-17 18:36:04,842 [http-nio-8081-exec-4]  INFO -----------------------------------------
+2019-04-17 18:36:04,843 [http-nio-8081-exec-4]  INFO AUTHORIZATION  :null
+2019-04-17 18:36:04,843 [http-nio-8081-exec-4]  INFO SECRET KEY  :null
+2019-04-17 18:36:04,843 [http-nio-8081-exec-4] ERROR Servlet.service() for servlet [dispatcherServlet] threw exception
+java.lang.NullPointerException: null
+	at com.payment.demo.interceptors.payment1Interceptors.preHandle(payment1Interceptors.java:25)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-17 18:36:04,843 [http-nio-8081-exec-4] ERROR Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1013)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.payment.demo.interceptors.payment1Interceptors.preHandle(payment1Interceptors.java:25)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	... 26 common frames omitted
+2019-04-17 18:36:41,673 [http-nio-8081-exec-6]  INFO -----------------------------------------
+2019-04-17 18:36:41,673 [http-nio-8081-exec-6]  INFO AUTHORIZATION  :null
+2019-04-17 18:36:41,674 [http-nio-8081-exec-6]  INFO SECRET KEY  :null
+2019-04-17 18:36:41,675 [http-nio-8081-exec-6] ERROR Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.payment.demo.interceptors.payment1Interceptors.preHandle(payment1Interceptors.java:25)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-17 18:36:41,676 [http-nio-8081-exec-6]  INFO -----------------------------------------
+2019-04-17 18:36:41,676 [http-nio-8081-exec-6]  INFO AUTHORIZATION  :null
+2019-04-17 18:36:41,676 [http-nio-8081-exec-6]  INFO SECRET KEY  :null
+2019-04-17 18:36:41,677 [http-nio-8081-exec-6] ERROR Servlet.service() for servlet [dispatcherServlet] threw exception
+java.lang.NullPointerException: null
+	at com.payment.demo.interceptors.payment1Interceptors.preHandle(payment1Interceptors.java:25)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-17 18:36:41,677 [http-nio-8081-exec-6] ERROR Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1013)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.payment.demo.interceptors.payment1Interceptors.preHandle(payment1Interceptors.java:25)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	... 26 common frames omitted
+2019-04-17 18:37:28,771 [main]  INFO Starting PaymentApplication on TRCM-ACDM12 with PID 4192 (C:\Users\nmoses\Downloads\PaymentWallet\payment1\target\classes started by nmoses in C:\Users\nmoses\Downloads\PaymentWallet\payment1)
+2019-04-17 18:37:28,773 [main]  INFO No active profile set, falling back to default profiles: default
+2019-04-17 18:37:29,161 [main]  INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-17 18:37:29,203 [main]  INFO Finished Spring Data repository scanning in 38ms. Found 1 repository interfaces.
+2019-04-17 18:37:29,368 [main]  INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b97a5f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 18:37:29,542 [main]  INFO Tomcat initialized with port(s): 8081 (http)
+2019-04-17 18:37:29,566 [main]  INFO Starting service [Tomcat]
+2019-04-17 18:37:29,566 [main]  INFO Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-17 18:37:29,639 [main]  INFO Initializing Spring embedded WebApplicationContext
+2019-04-17 18:37:29,640 [main]  INFO Root WebApplicationContext: initialization completed in 837 ms
+2019-04-17 18:37:29,721 [main]  INFO HikariPool-1 - Starting...
+2019-04-17 18:37:32,970 [main]  INFO HikariPool-1 - Start completed.
+2019-04-17 18:37:33,001 [main]  INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-17 18:37:33,036 [main]  INFO HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-17 18:37:33,038 [main]  INFO HHH000206: hibernate.properties not found
+2019-04-17 18:37:33,111 [main]  INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-17 18:37:33,191 [main]  INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-17 18:37:33,531 [main]  INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-17 18:37:33,727 [main]  WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'payment1InterceptorConfig': Unsatisfied dependency expressed through field 'payment1Interceptors'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.payment.demo.interceptors.payment1Interceptors' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-04-17 18:37:33,727 [main]  INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-17 18:37:33,729 [main]  INFO HikariPool-1 - Shutdown initiated...
+2019-04-17 18:37:33,736 [main]  INFO HikariPool-1 - Shutdown completed.
+2019-04-17 18:37:33,737 [main]  INFO Stopping service [Tomcat]
+2019-04-17 18:37:33,743 [main]  INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-17 18:37:33,893 [main] ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field payment1Interceptors in com.payment.demo.services.payment1InterceptorConfig required a bean of type 'com.payment.demo.interceptors.payment1Interceptors' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.payment.demo.interceptors.payment1Interceptors' in your configuration.
+
+2019-04-17 18:38:33,729 [main]  INFO Starting PaymentApplication on TRCM-ACDM12 with PID 11916 (C:\Users\nmoses\Downloads\PaymentWallet\payment1\target\classes started by nmoses in C:\Users\nmoses\Downloads\PaymentWallet\payment1)
+2019-04-17 18:38:33,731 [main]  INFO No active profile set, falling back to default profiles: default
+2019-04-17 18:38:34,132 [main]  INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-17 18:38:34,174 [main]  INFO Finished Spring Data repository scanning in 38ms. Found 1 repository interfaces.
+2019-04-17 18:38:34,337 [main]  INFO Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$67736851] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-17 18:38:34,514 [main]  INFO Tomcat initialized with port(s): 8081 (http)
+2019-04-17 18:38:34,527 [main]  INFO Starting service [Tomcat]
+2019-04-17 18:38:34,528 [main]  INFO Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-17 18:38:34,598 [main]  INFO Initializing Spring embedded WebApplicationContext
+2019-04-17 18:38:34,598 [main]  INFO Root WebApplicationContext: initialization completed in 840 ms
+2019-04-17 18:38:34,679 [main]  INFO HikariPool-1 - Starting...
+2019-04-17 18:38:34,919 [main]  INFO HikariPool-1 - Start completed.
+2019-04-17 18:38:34,948 [main]  INFO HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-17 18:38:34,982 [main]  INFO HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-17 18:38:34,983 [main]  INFO HHH000206: hibernate.properties not found
+2019-04-17 18:38:35,053 [main]  INFO HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-17 18:38:35,130 [main]  INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-17 18:38:35,458 [main]  INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-17 18:38:35,758 [main]  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-17 18:38:35,796 [main]  WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-17 18:38:35,890 [main]  INFO Tomcat started on port(s): 8081 (http) with context path ''
+2019-04-17 18:38:35,892 [main]  INFO Started PaymentApplication in 2.341 seconds (JVM running for 2.821)
+2019-04-17 18:38:41,232 [http-nio-8081-exec-1]  INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-17 18:38:41,233 [http-nio-8081-exec-1]  INFO Initializing Servlet 'dispatcherServlet'
+2019-04-17 18:38:41,238 [http-nio-8081-exec-1]  INFO Completed initialization in 4 ms
+2019-04-17 18:38:41,474 [http-nio-8081-exec-1]  INFO HHH000397: Using ASTQueryTranslatorFactory
